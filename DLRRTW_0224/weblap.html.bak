@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="hu">
+
+ <head>
+  <meta charset="UTF-8">
+
+  <title>Szövegormázás: sortörés, szóköz</title>
+ </head>
+
+ <body>
+
+<h3>Szövegformázás: sortörés, szóköz</h3>
+
+   <br><br>
+   Ebbe a részbe a weblap tartalma kerül!
+  
+  <br><br>
+
+    Ez egy újabb sor, amit az elő sor alá írunk. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Most írjuk be a forráskódba egy másik mondatot.
+
+	   <!-- <PRE> .... </PRE> (preformatted, előformázott) -- >
+
+
+ <PRE>
+ Név: SZJ
+     Születésnap: 10.18
+	 Lakhely: NY
+	 Telefonszám: XY
+
+ </body>
+
+</html>
