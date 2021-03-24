@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+<meta charset="UTF-8">
+<title>Listák készítése</title>
+</head>
+
+<h2>Listák készítése</h2>
+
+
+<!--
+Listaelemek jelölésének típusai <list-style-type):
+disc | circle | square | decimal | lower-roman | upper-roman | lower-alpha | upper-alpha | none -->
+
+
+
+
+
+<body>
+<!--Rendezetlen lista -->
+<!--  <li> - list item </li> -->
+<ul>
+	<li>piros</li>
+	<li>kék</li>
+	<li>sárga</li>
+	<li>barna</li>
+</ul>
+
+<ul style="font-size:12pt; font-family:cambria; list-style-type:circle; color:blue">
+	<li>kékes-zöld</li>
+	<li>kék</li>
+	<li>sárga</li>
+	<li>barna</li>
+</ul>
+
+<br>
+<!--Rendezett lista -->
+
+<ol type="1">
+	<li>pink</li>
+	<li>kék</li>
+	<li>sárga</li>
+	<li>barna</li>
+
+</ol>
+<br>
+<!--Római számok-->
+<ol type="I">
+	<li>I.évf</li>
+	<li>II.évf</li>
+	<li>III. évf</li>
+	
+</ol>
+
+<ol style="font-size:14pt; font-family:tahoma; list-style-type:upper-alpha; color:red">
+<li>pink</li>
+	<li>kék</li>
+	<li>sárga</li>
+	<li>barna</li>
+	</ol>
+
+	<br>
+
+	
+	<!--HTML Description lists, itt a kedvenc állatok legyenek és hozzá a tujaldonságok ! -->
+	<dl style="font-size:12pt; font-family:tahoma; color:green">
+	<dt><b>Farkas</b>
+	<dd>Kutyaszerű ragadozó emlős
+	<br><br>
+	<dt><b>File</b>
+	<dd>Szöveges állomány <br><br>
+	<dt><b>Oroszlán</b>
+	<dd>Macskaszerű ragadozó emlős
+	<dd>Az állatok királya
+	</dl>
+
+<!--beágyazott html listák: kedvenc reggeli italaim -->
+<font color="ff0099"><h2> Kedvenc reggeli italaim</h2></font>
+
+<ul>
+<li>Kávé</li>
+<li>tea
+<ul>
+<li>Fekete tea</li>
+<li>Zöld tea</li>
+</ul>
+</li>
+<li>tej</li>
+</ul>
+
+<!--Control list counting - itt a csoporttársak legyenek -névsorban desc a végétől-->
+<br>
+<ol start="5">
+<li>KL</li>
+<li>EL</li>
+<li>BL</li>
+</ol>
+
+
+
+
+
+ </body>
+</html>
